@@ -105,11 +105,21 @@ nav{
 }
 
 .list-updates li{
-    margin-bottom: 5px;
+    margin-bottom: 7px;
     font-size: 0.8rem;
     padding:3px;
     border-radius: 5px;
 }
+
+.list-updates li a{
+    color:rgb(233, 231, 231);
+    text-decoration: none;
+}
+
+.list-updates li:hover{
+    box-shadow: 0px 3px 5px rgb(43, 55, 59);
+}
+
 .list-updates li:nth-child(odd){
     background-color: #455a5a;
 }
