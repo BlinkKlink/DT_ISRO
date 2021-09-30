@@ -34,3 +34,5 @@ function backwardBtnImage(){
 
 forwardBtn.addEventListener('click', forwardJtImage);
 backwardBtn.addEventListener('click', backwardBtnImage);
+
+setInterval(forwardJtImage, 3000);
