@@ -12,7 +12,7 @@ nav{
     top:0;
     left:0;
     width:100%;
-    background-color: #A9DDED;
+    background-color: #2f3335;
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
@@ -29,16 +29,30 @@ nav{
 .nav-links a{
     border:1px solid grey;
     text-decoration: none;
-    color:grey;
+    color:rgb(255, 255, 255);
     font-weight:lighter;
     font-size: 0.7rem;
     line-height: 0.7rem;
     margin-left:25px;
     padding: 3px;
+    border-radius: 5px;
 }
 
 .nav-links a:hover{
-    background-color: rgb(65, 129, 138);
-    color:white;
+    background-color: rgb(226, 227, 228);
+    color:rgb(61, 58, 58);
 }
 
+.container{
+    width:1080px;
+    min-height: 1080px;
+    background: rgb(225, 225, 228);
+    margin:0 auto;
+    margin-top: 30px;
+    padding: 5px;
+}
+
+.jt-container img{
+    width:100%;
+    border-radius:5px;
+}
