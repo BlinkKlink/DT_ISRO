@@ -59,9 +59,10 @@ nav{
     /* border:1px solid black; */
 }
 
-.jt-container img{
+.jt-container a img{
     width:100%;
     border-radius:5px;
+    height:250px;
     box-shadow: 0px 3px 5px rgb(190, 188, 188);
 
 }
@@ -274,4 +275,32 @@ footer ul{
     padding-bottom: 2px;
     color:rgb(238, 234, 234) !important;
     font-size: 0.9rem !important;
+}
+
+#forward{
+    z-index: 99;
+    position: absolute;
+    top:150px;
+    right:250px;
+    padding:5px;
+    color:white;
+    background-color:rgba(255, 255, 255, 0.315);
+}
+
+#backward{
+    z-index: 99;
+    position: absolute;
+    top:150px;
+    left:250px;
+    padding:5px;
+    color:white;
+    background-color:rgba(255, 255, 255, 0.315);
+}
+
+#forward:active{
+    background-color: rgba(128, 128, 128, 0.603);
+}
+
+#backward:active{
+    background-color: rgba(128, 128, 128, 0.603);
 }
