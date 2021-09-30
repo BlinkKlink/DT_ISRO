@@ -56,3 +56,51 @@ nav{
     width:100%;
     border-radius:5px;
 }
+
+.content{
+    /* background-color:#2f3335; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 960px;
+}
+
+.main-content{
+    flex-basis: 65%;
+}
+
+.aside{
+    flex-basis: 30%;
+    background-color: #87969e;
+    border-radius: 5px;
+    color:white;
+}
+
+.aside h2{
+    text-align: center;
+    background-color:rgb(56, 52, 52);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-weight: lighter;
+}
+
+.aside ul{
+    list-style: none;
+    padding:10px;
+}
+
+.list-updates li{
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+    padding:3px;
+    border-radius: 5px;
+}
+.list-updates li:nth-child(odd){
+    background-color: #455a5a;
+}
+
+.list-updates li:nth-child(even){
+    background-color: #414444;
+}
+
