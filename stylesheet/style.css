@@ -31,7 +31,7 @@ nav{
 }
 
 .nav-links a{
-    border:1px solid grey;
+    /* border:1px solid grey; */
     text-decoration: none;
     color:rgb(255, 255, 255);
     font-weight:lighter;
@@ -39,12 +39,13 @@ nav{
     line-height: 0.7rem;
     margin-left:25px;
     padding: 3px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 .nav-links a:hover{
-    background-color: rgb(226, 227, 228);
-    color:rgb(61, 58, 58);
+    /* background-color: rgb(226, 227, 228); */
+    /* color:rgb(61, 58, 58); */
+    border-bottom: 3px solid grey;
 }
 
 .container{
@@ -238,10 +239,9 @@ nav{
 }
 
 footer{
-    /* display: absolute; */
-    width:100%;
+    /* width:100%; */
+    min-width: 1080px;
     font-weight:lighter;
-    bottom:0;
     background-color: #2f3335;
     color:white;
     font-size:0.7rem;
@@ -278,23 +278,25 @@ footer ul{
 }
 
 #forward{
-    z-index: 99;
+    /* z-index: 99; */
     position: absolute;
     top:150px;
     right:250px;
     padding:5px;
     color:white;
     background-color:rgba(255, 255, 255, 0.315);
+    box-shadow: 0px 3px 5px rgb(95, 93, 93);
 }
 
 #backward{
-    z-index: 99;
+    /* z-index: 99; */
     position: absolute;
     top:150px;
     left:250px;
     padding:5px;
     color:white;
     background-color:rgba(255, 255, 255, 0.315);
+    box-shadow: 0px 3px 5px rgb(95, 93, 93);
 }
 
 #forward:active{
